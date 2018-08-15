@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>XamarinForms.ViewLifeCycle</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Capisoft</Authors>
+    <Description>XamarinForms.ViewLifeCycle</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netstandard2.0\XF.Capisoft.ViewLifeCycle.xml</DocumentationFile>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>nuget pack ${TargetDir}/${ProjectName}.nuspec -OutputDirectory ../Nugets/${ProjectConfig}/</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>nuget pack ${TargetDir}/${ProjectName}.nuspec -OutputDirectory ../Nugets/${ProjectConfig}/</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="XamarinForms.ViewLifeCycle.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
+    <None Update="XF.Capisoft.ViewLifeCycle.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

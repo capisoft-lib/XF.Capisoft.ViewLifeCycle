@@ -1,0 +1,10 @@
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/bin/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.nuspec
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/bin/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.deps.json
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/bin/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.dll
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/bin/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.pdb
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.csproj.CoreCompileInputs.cache
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.AssemblyInfoInputs.cache
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.AssemblyInfo.cs
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XamlC.stamp
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.dll
+/Users/ubp/Projects/Xamarin/Libraries/XF.Capisoft.ViewLifeCycle/XF.Capisoft.ViewLifeCycle/obj/Release/netstandard2.0/XF.Capisoft.ViewLifeCycle.pdb
