@@ -1,3 +1,6 @@
 Nugets/
 packages/
 .vs/
+bin
+obj
+deploy-nugets.sh
